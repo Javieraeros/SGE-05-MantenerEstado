@@ -1,0 +1,29 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        @using (Html.BeginForm())
+        {
+            <p>
+                <label>Contador que viene por viewbag: @ViewBag.contador</label>
+            </p>
+            <p>
+                <!--<label> cookie google: @ViewBag.google</label>-->
+            </p>
+            <p>
+                <input type="submit" name="+1" value="+1"/>
+            </p>
+        }
+    </div>
+</body>
+</html>
