@@ -50,7 +50,7 @@ namespace Cookies.Controllers
             Response.SetCookie(miCookie);
 
 
-            return View();
+            return RedirectToAction("Index");
         }
     }
 }

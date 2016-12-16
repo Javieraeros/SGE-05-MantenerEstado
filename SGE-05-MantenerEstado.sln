@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sessions", "Sessions\Sessio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cookies", "Cookies\Cookies.csproj", "{10DD630A-1F7F-46DB-8ED8-78E717970CA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RouteParams", "RouteParams\RouteParams.csproj", "{D6AA58DE-8C6A-40FB-BFCD-D9E7032F2B17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{10DD630A-1F7F-46DB-8ED8-78E717970CA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10DD630A-1F7F-46DB-8ED8-78E717970CA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10DD630A-1F7F-46DB-8ED8-78E717970CA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6AA58DE-8C6A-40FB-BFCD-D9E7032F2B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6AA58DE-8C6A-40FB-BFCD-D9E7032F2B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6AA58DE-8C6A-40FB-BFCD-D9E7032F2B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6AA58DE-8C6A-40FB-BFCD-D9E7032F2B17}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
